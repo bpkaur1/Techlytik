@@ -1,0 +1,1759 @@
+{
+    "success": 1,
+    "message": "",
+    "data": {
+        "grid": [
+            {
+                "api_key": "DigitalInput1_Status",
+                "api_labels": "Disable",
+                "lookup_key": 1,
+                "group": "Digital Inputs",
+                "col_description": "Digital Input 1 Enable/Disable",
+                "sourcetype": "inline",
+                "source": [
+                    {
+                        "label": "Enable",
+                        "value": "Enable"
+                    },
+                    {
+                        "label": "Disable",
+                        "value": "Disable"
+                    }
+                ],
+                "labelvalues": {
+                    "Enable": 1,
+                    "Disable": 2
+                }
+            },
+            {
+                "api_key": "DigitalInput1_Name",
+                "api_labels": "Enabling or disabling",
+                "lookup_key": 2,
+                "group": "Digital Inputs",
+                "col_description": "Custom User Name for Digital Input 1",
+                "sourcetype": "input",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "DigitalInput1_Name_1",
+                "api_labels": "Alarm",
+                "lookup_key": 3,
+                "group": "Digital Inputs",
+                "col_description": "Custom Name for Digital Input 1 value when 1",
+                "sourcetype": "inline",
+                "source": [
+                    {
+                        "label": "Normal",
+                        "value": "Normal"
+                    },
+                    {
+                        "label": "Alarm",
+                        "value": "Alarm"
+                    },
+                    {
+                        "label": "Shutdown",
+                        "value": "Shutdown"
+                    }
+                ],
+                "labelvalues": {
+                    "Normal": 1,
+                    "Alarm": 2,
+                    "Shutdown": 3
+                }
+            },
+            {
+                "api_key": "DigitalInput1_Name_0",
+                "api_labels": "Shutdown",
+                "lookup_key": 4,
+                "group": "Digital Inputs",
+                "col_description": "Custom Name for Digital Input value 1 when 0",
+                "sourcetype": "inline",
+                "source": [
+                    {
+                        "label": "Normal",
+                        "value": "Normal"
+                    },
+                    {
+                        "label": "Alarm",
+                        "value": "Alarm"
+                    },
+                    {
+                        "label": "Shutdown",
+                        "value": "Shutdown"
+                    }
+                ],
+                "labelvalues": {
+                    "Normal": 1,
+                    "Alarm": 2,
+                    "Shutdown": 3
+                }
+            },
+            {
+                "api_key": "DigitalInput2_Status",
+                "api_labels": "Enable",
+                "lookup_key": 5,
+                "group": "Digital Inputs",
+                "col_description": "Digital Input 2 Enable/Disable",
+                "sourcetype": "inline",
+                "source": [
+                    {
+                        "label": "Enable",
+                        "value": "Enable"
+                    },
+                    {
+                        "label": "Disable",
+                        "value": "Disable"
+                    }
+                ],
+                "labelvalues": {
+                    "Enable": 1,
+                    "Disable": 2
+                }
+            },
+            {
+                "api_key": "DigitalInput2_Name",
+                "api_labels": "fff",
+                "lookup_key": 6,
+                "group": "Digital Inputs",
+                "col_description": "Custom User Name for Digital Input 2",
+                "sourcetype": "input",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "DigitalInput2_Name_1",
+                "api_labels": "Alarm",
+                "lookup_key": 7,
+                "group": "Digital Inputs",
+                "col_description": "Custom Name for Digital Input 2 value when 1",
+                "sourcetype": "inline",
+                "source": [
+                    {
+                        "label": "Normal",
+                        "value": "Normal"
+                    },
+                    {
+                        "label": "Alarm",
+                        "value": "Alarm"
+                    },
+                    {
+                        "label": "Shutdown",
+                        "value": "Shutdown"
+                    }
+                ],
+                "labelvalues": {
+                    "Normal": 1,
+                    "Alarm": 2,
+                    "Shutdown": 3
+                }
+            },
+            {
+                "api_key": "DigitalInput2_Name_0",
+                "api_labels": "Shutdown",
+                "lookup_key": 8,
+                "group": "Digital Inputs",
+                "col_description": "Custom Name for Digital Input value 2 when 0",
+                "sourcetype": "inline",
+                "source": [
+                    {
+                        "label": "Normal",
+                        "value": "Normal"
+                    },
+                    {
+                        "label": "Alarm",
+                        "value": "Alarm"
+                    },
+                    {
+                        "label": "Shutdown",
+                        "value": "Shutdown"
+                    }
+                ],
+                "labelvalues": {
+                    "Normal": 1,
+                    "Alarm": 2,
+                    "Shutdown": 3
+                }
+            },
+            {
+                "api_key": "AnalogInput1_Status",
+                "api_labels": null,
+                "lookup_key": 9,
+                "group": "Analog Inputs",
+                "col_description": "Analog Input 1 Enable/Disable",
+                "sourcetype": "inline",
+                "source": [
+                    {
+                        "label": "Yes",
+                        "value": "Yes"
+                    },
+                    {
+                        "label": "No",
+                        "value": "Yes"
+                    }
+                ],
+                "labelvalues": {
+                    "Yes": 1,
+                    "No": 0
+                }
+            },
+            {
+                "api_key": "AnalogInput1_Name",
+                "api_labels": null,
+                "lookup_key": 10,
+                "group": "Analog Inputs",
+                "col_description": "Custom User Name for Analog Input 1",
+                "sourcetype": "input",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "AnalogInput1_Min",
+                "api_labels": null,
+                "lookup_key": 11,
+                "group": "Analog Inputs",
+                "col_description": "Analog Input 1 Minimum Value for Scaling",
+                "sourcetype": "input",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "AnalogInput1_Max",
+                "api_labels": null,
+                "lookup_key": 12,
+                "group": "Analog Inputs",
+                "col_description": "Analog Input 1 Maximum Value for Scaling",
+                "sourcetype": "input",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "AnalogInput1_high_hi",
+                "api_labels": null,
+                "lookup_key": 13,
+                "group": "Analog Inputs",
+                "col_description": "Analog Input 1 High High Value User Setpoint",
+                "sourcetype": "input",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "AnalogInput1_high_hi",
+                "api_labels": null,
+                "lookup_key": 14,
+                "group": "Analog Inputs",
+                "col_description": "Analog Input 1 High High value breach and result",
+                "sourcetype": "inline",
+                "source": [
+                    {
+                        "label": "Alarm",
+                        "value": "Alarm"
+                    },
+                    {
+                        "label": "Shutdown",
+                        "value": "Shutdown"
+                    }
+                ],
+                "labelvalues": {
+                    "Alarm": 1,
+                    "Shutdown": 2
+                }
+            },
+            {
+                "api_key": "AnalogInput1_high",
+                "api_labels": null,
+                "lookup_key": 15,
+                "group": "Analog Inputs",
+                "col_description": "Analog Input 1 High Value User Setpoint",
+                "sourcetype": "input",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "AnalogInput1_high_br",
+                "api_labels": null,
+                "lookup_key": 16,
+                "group": "Analog Inputs",
+                "col_description": "Analog Input 1 High value breach and result",
+                "sourcetype": "inline",
+                "source": [
+                    {
+                        "label": "Alarm",
+                        "value": "Alarm"
+                    },
+                    {
+                        "label": "Shutdown",
+                        "value": "Shutdown"
+                    }
+                ],
+                "labelvalues": {
+                    "Alarm": 1,
+                    "Shutdown": 2
+                }
+            },
+            {
+                "api_key": "AnalogInput1_low",
+                "api_labels": null,
+                "lookup_key": 17,
+                "group": "Analog Inputs",
+                "col_description": "Analog Input 1 Low Value User Setpoint",
+                "sourcetype": "input",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "AnalogInput1_low_bre",
+                "api_labels": "Shutdown",
+                "lookup_key": 18,
+                "group": "Analog Inputs",
+                "col_description": "Analog Input 1 Low value breach and result",
+                "sourcetype": "inline",
+                "source": [
+                    {
+                        "label": "Alarm",
+                        "value": "Alarm"
+                    },
+                    {
+                        "label": "Shutdown",
+                        "value": "Shutdown"
+                    }
+                ],
+                "labelvalues": {
+                    "Alarm": 1,
+                    "Shutdown": 2
+                }
+            },
+            {
+                "api_key": "AnalogInput1_low_low",
+                "api_labels": null,
+                "lookup_key": 19,
+                "group": "Analog Inputs",
+                "col_description": "Analog Input 1 Low Low Value User Setpoint",
+                "sourcetype": "input",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "AnalogInput1_low_low",
+                "api_labels": null,
+                "lookup_key": 20,
+                "group": "Analog Inputs",
+                "col_description": "Analog Input 1 Low Low value breach and result",
+                "sourcetype": "inline",
+                "source": [
+                    {
+                        "label": "Alarm",
+                        "value": "Alarm"
+                    },
+                    {
+                        "label": "Shutdown",
+                        "value": "Shutdown"
+                    }
+                ],
+                "labelvalues": {
+                    "Alarm": 1,
+                    "Shutdown": 2
+                }
+            },
+            {
+                "api_key": "AnalogInput2_Status",
+                "api_labels": null,
+                "lookup_key": 21,
+                "group": "Analog Inputs",
+                "col_description": "Analog Input 2 Enable/Disable",
+                "sourcetype": "inline",
+                "source": [
+                    {
+                        "label": "Yes",
+                        "value": "Yes"
+                    },
+                    {
+                        "label": "No",
+                        "value": "Yes"
+                    }
+                ],
+                "labelvalues": {
+                    "Yes": 1,
+                    "No": 0
+                }
+            },
+            {
+                "api_key": "AnalogInput2_Name",
+                "api_labels": null,
+                "lookup_key": 22,
+                "group": "Analog Inputs",
+                "col_description": "Custom User name for Analog Input 2",
+                "sourcetype": "input",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "AnalogInput2_Min",
+                "api_labels": null,
+                "lookup_key": 23,
+                "group": "Analog Inputs",
+                "col_description": "Analog Input 2 Minimum Value for Scaling",
+                "sourcetype": "input",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "AnalogInput2_Max",
+                "api_labels": null,
+                "lookup_key": 24,
+                "group": "Analog Inputs",
+                "col_description": "Analog Input 2 Maximum Value for Scaling",
+                "sourcetype": "input",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "AnalogInput2_high_hi",
+                "api_labels": null,
+                "lookup_key": 25,
+                "group": "Analog Inputs",
+                "col_description": "Analog Input 2 High High Value User Setpoint",
+                "sourcetype": "input",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "AnalogInput2_high_hi",
+                "api_labels": null,
+                "lookup_key": 26,
+                "group": "Analog Inputs",
+                "col_description": "Analog Input 2 High High value breach and result",
+                "sourcetype": "inline",
+                "source": [
+                    {
+                        "label": "Alarm",
+                        "value": "Alarm"
+                    },
+                    {
+                        "label": "Shutdown",
+                        "value": "Shutdown"
+                    }
+                ],
+                "labelvalues": {
+                    "Alarm": 1,
+                    "Shutdown": 2
+                }
+            },
+            {
+                "api_key": "AnalogInput2_high",
+                "api_labels": null,
+                "lookup_key": 27,
+                "group": "Analog Inputs",
+                "col_description": "Analog Input 2 High Value User Setpoint",
+                "sourcetype": "input",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "AnalogInput2_high_br",
+                "api_labels": null,
+                "lookup_key": 28,
+                "group": "Analog Inputs",
+                "col_description": "Analog Input 2 High value breach and result",
+                "sourcetype": "inline",
+                "source": [
+                    {
+                        "label": "Alarm",
+                        "value": "Alarm"
+                    },
+                    {
+                        "label": "Shutdown",
+                        "value": "Shutdown"
+                    }
+                ],
+                "labelvalues": {
+                    "Alarm": 1,
+                    "Shutdown": 2
+                }
+            },
+            {
+                "api_key": "AnalogInput2_low",
+                "api_labels": null,
+                "lookup_key": 29,
+                "group": "Analog Inputs",
+                "col_description": "Analog Input 2 Low Value User Setpoint",
+                "sourcetype": "input",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "AnalogInput2_low_bre",
+                "api_labels": null,
+                "lookup_key": 30,
+                "group": "Analog Inputs",
+                "col_description": "Analog Input 2 Low value breach and result",
+                "sourcetype": "inline",
+                "source": [
+                    {
+                        "label": "Alarm",
+                        "value": "Alarm"
+                    },
+                    {
+                        "label": "Shutdown",
+                        "value": "Shutdown"
+                    }
+                ],
+                "labelvalues": {
+                    "Alarm": 1,
+                    "Shutdown": 2
+                }
+            },
+            {
+                "api_key": "AnalogInput2_low_low",
+                "api_labels": null,
+                "lookup_key": 31,
+                "group": "Analog Inputs",
+                "col_description": "Analog Input 2 Low Low Value User Setpoint",
+                "sourcetype": "input",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "AnalogInput2_low_low",
+                "api_labels": null,
+                "lookup_key": 32,
+                "group": "Analog Inputs",
+                "col_description": "Analog Input 2 Low Low value breach and result",
+                "sourcetype": "inline",
+                "source": [
+                    {
+                        "label": "Alarm",
+                        "value": "Alarm"
+                    },
+                    {
+                        "label": "Shutdown",
+                        "value": "Shutdown"
+                    }
+                ],
+                "labelvalues": {
+                    "Alarm": 1,
+                    "Shutdown": 2
+                }
+            },
+            {
+                "api_key": "AnalogInput3_Status",
+                "api_labels": null,
+                "lookup_key": 33,
+                "group": "Analog Inputs",
+                "col_description": "Analog Input 3 Enable/Disable",
+                "sourcetype": "inline",
+                "source": [
+                    {
+                        "label": "Yes",
+                        "value": "Yes"
+                    },
+                    {
+                        "label": "No",
+                        "value": "Yes"
+                    }
+                ],
+                "labelvalues": {
+                    "Yes": 1,
+                    "No": 0
+                }
+            },
+            {
+                "api_key": "AnalogInput3_Name",
+                "api_labels": null,
+                "lookup_key": 34,
+                "group": "Analog Inputs",
+                "col_description": "Custom User Name for Analog Input 3",
+                "sourcetype": "input",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "AnalogInput3_Min",
+                "api_labels": null,
+                "lookup_key": 35,
+                "group": "Analog Inputs",
+                "col_description": "Analog Input 3 Minimum Value for Scaling",
+                "sourcetype": "input",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "AnalogInput3_Max",
+                "api_labels": null,
+                "lookup_key": 36,
+                "group": "Analog Inputs",
+                "col_description": "Analog Input 3 Maximum Value for Scaling",
+                "sourcetype": "input",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "AnalogInput3_high_hi",
+                "api_labels": null,
+                "lookup_key": 37,
+                "group": "Analog Inputs",
+                "col_description": "Analog Input 3 High High Value User Setpoint",
+                "sourcetype": "input",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "AnalogInput3_high_hi",
+                "api_labels": null,
+                "lookup_key": 38,
+                "group": "Analog Inputs",
+                "col_description": "Analog Input 3 High High value breach and result",
+                "sourcetype": "inline",
+                "source": [
+                    {
+                        "label": "Alarm",
+                        "value": "Alarm"
+                    },
+                    {
+                        "label": "Shutdown",
+                        "value": "Shutdown"
+                    }
+                ],
+                "labelvalues": {
+                    "Alarm": 1,
+                    "Shutdown": 2
+                }
+            },
+            {
+                "api_key": "AnalogInput3_high",
+                "api_labels": null,
+                "lookup_key": 39,
+                "group": "Analog Inputs",
+                "col_description": "Analog Input 3 High Value User Setpoint",
+                "sourcetype": "input",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "AnalogInput3_high_br",
+                "api_labels": null,
+                "lookup_key": 40,
+                "group": "Analog Inputs",
+                "col_description": "Analog Input 3 High value breach and result",
+                "sourcetype": "inline",
+                "source": [
+                    {
+                        "label": "Alarm",
+                        "value": "Alarm"
+                    },
+                    {
+                        "label": "Shutdown",
+                        "value": "Shutdown"
+                    }
+                ],
+                "labelvalues": {
+                    "Alarm": 1,
+                    "Shutdown": 2
+                }
+            },
+            {
+                "api_key": "AnalogInput3_low",
+                "api_labels": null,
+                "lookup_key": 41,
+                "group": "Analog Inputs",
+                "col_description": "Analog Input 3 Low Value User Setpoint",
+                "sourcetype": "input",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "AnalogInput3_low_bre",
+                "api_labels": null,
+                "lookup_key": 42,
+                "group": "Analog Inputs",
+                "col_description": "Analog Input 3 Low value breach and result",
+                "sourcetype": "inline",
+                "source": [
+                    {
+                        "label": "Alarm",
+                        "value": "Alarm"
+                    },
+                    {
+                        "label": "Shutdown",
+                        "value": "Shutdown"
+                    }
+                ],
+                "labelvalues": {
+                    "Alarm": 1,
+                    "Shutdown": 2
+                }
+            },
+            {
+                "api_key": "AnalogInput3_low_low",
+                "api_labels": null,
+                "lookup_key": 43,
+                "group": "Analog Inputs",
+                "col_description": "Analog Input 3 Low Low Value User Setpoint",
+                "sourcetype": "input",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "AnalogInput3_low_low",
+                "api_labels": null,
+                "lookup_key": 44,
+                "group": "Analog Inputs",
+                "col_description": "Analog Input 3 Low Low value breach and result",
+                "sourcetype": "inline",
+                "source": [
+                    {
+                        "label": "Alarm",
+                        "value": "Alarm"
+                    },
+                    {
+                        "label": "Shutdown",
+                        "value": "Shutdown"
+                    }
+                ],
+                "labelvalues": {
+                    "Alarm": 1,
+                    "Shutdown": 2
+                }
+            },
+            {
+                "api_key": "powerMonitoring_stat",
+                "api_labels": null,
+                "lookup_key": 45,
+                "group": "Power Monitorin",
+                "col_description": "Power Monitoring Enable/Disable",
+                "sourcetype": "inline",
+                "source": [
+                    {
+                        "label": "Yes",
+                        "value": "Yes"
+                    },
+                    {
+                        "label": "No",
+                        "value": "Yes"
+                    }
+                ],
+                "labelvalues": {
+                    "Yes": 1,
+                    "No": 0
+                }
+            },
+            {
+                "api_key": "Voltage_Loss_A",
+                "api_labels": null,
+                "lookup_key": 46,
+                "group": "Power Monitorin",
+                "col_description": "Loss of Line Side Voltage A",
+                "sourcetype": "inline",
+                "source": [
+                    {
+                        "label": "Alarm",
+                        "value": "Alarm"
+                    },
+                    {
+                        "label": "Shutdown",
+                        "value": "Shutdown"
+                    }
+                ],
+                "labelvalues": {
+                    "Alarm": 1,
+                    "Shutdown": 2
+                }
+            },
+            {
+                "api_key": "Voltage_Loss_B",
+                "api_labels": null,
+                "lookup_key": 47,
+                "group": "Power Monitorin",
+                "col_description": "Loss of Line Side Voltage B",
+                "sourcetype": "inline",
+                "source": [
+                    {
+                        "label": "Alarm",
+                        "value": "Alarm"
+                    },
+                    {
+                        "label": "Shutdown",
+                        "value": "Shutdown"
+                    }
+                ],
+                "labelvalues": {
+                    "Alarm": 1,
+                    "Shutdown": 2
+                }
+            },
+            {
+                "api_key": "Voltage_Loss_C",
+                "api_labels": null,
+                "lookup_key": 48,
+                "group": "Power Monitorin",
+                "col_description": "Loss of Line Side Voltage C",
+                "sourcetype": "inline",
+                "source": [
+                    {
+                        "label": "Alarm",
+                        "value": "Alarm"
+                    },
+                    {
+                        "label": "Shutdown",
+                        "value": "Shutdown"
+                    }
+                ],
+                "labelvalues": {
+                    "Alarm": 1,
+                    "Shutdown": 2
+                }
+            },
+            {
+                "api_key": "Connection_method",
+                "api_labels": null,
+                "lookup_key": 49,
+                "group": "Communications",
+                "col_description": "Device Connection method",
+                "sourcetype": "inline",
+                "source": [
+                    {
+                        "label": "App Or Cellular",
+                        "value": "App Or Cellular"
+                    },
+                    {
+                        "label": "Third Party Software",
+                        "value": "Third Party Software"
+                    }
+                ],
+                "labelvalues": {
+                    "App Or Cellular": 1,
+                    "Third Party Software": 2
+                }
+            },
+            {
+                "api_key": "RTU_Address",
+                "api_labels": null,
+                "lookup_key": 50,
+                "group": "Communications",
+                "col_description": "Modbus RTU Address",
+                "sourcetype": "input",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "Cel_AP_Name",
+                "api_labels": null,
+                "lookup_key": 51,
+                "group": "Communications",
+                "col_description": "Cellular Access Point Name",
+                "sourcetype": "input",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "Cel_Listening_Port",
+                "api_labels": null,
+                "lookup_key": 52,
+                "group": "Communications",
+                "col_description": "Cellular Listening Port",
+                "sourcetype": "input",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "RS232_TCP_list_port1",
+                "api_labels": null,
+                "lookup_key": 53,
+                "group": "Communications",
+                "col_description": "RS-232 Comm Port One TCP listening Port",
+                "sourcetype": "input",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "RS232_port1_baudrate",
+                "api_labels": null,
+                "lookup_key": 54,
+                "group": "Communications",
+                "col_description": "RS-232 Comm Port One baud rate",
+                "sourcetype": "inline",
+                "source": [
+                    {
+                        "label": 300,
+                        "value": 300
+                    },
+                    {
+                        "label": 600,
+                        "value": 600
+                    },
+                    {
+                        "label": 1200,
+                        "value": 1200
+                    },
+                    {
+                        "label": 4800,
+                        "value": 4800
+                    },
+                    {
+                        "label": 9600,
+                        "value": 9600
+                    },
+                    {
+                        "label": 19200,
+                        "value": 19200
+                    },
+                    {
+                        "label": 38400,
+                        "value": 38400
+                    },
+                    {
+                        "label": 57600,
+                        "value": 56700
+                    },
+                    {
+                        "label": 115200,
+                        "value": 115200
+                    },
+                    {
+                        "label": 230400,
+                        "value": 230400
+                    },
+                    {
+                        "label": 460800,
+                        "value": 460800
+                    },
+                    {
+                        "label": 921600,
+                        "value": 921600
+                    }
+                ],
+                "labelvalues": ""
+            },
+            {
+                "api_key": "RS232_port1_Data_For",
+                "api_labels": null,
+                "lookup_key": 55,
+                "group": "Communications",
+                "col_description": "RS-232 Comm Port One Data Format",
+                "sourcetype": "inline",
+                "source": [
+                    {
+                        "label": "8N1",
+                        "value": "8N1"
+                    },
+                    {
+                        "label": "8N2",
+                        "value": "8N2"
+                    },
+                    {
+                        "label": "8E1",
+                        "value": "8E1"
+                    },
+                    {
+                        "label": "8O1",
+                        "value": "8O1"
+                    },
+                    {
+                        "label": "7N1",
+                        "value": "7N1"
+                    },
+                    {
+                        "label": "7N2",
+                        "value": "7N2"
+                    },
+                    {
+                        "label": "7E1",
+                        "value": "7E1"
+                    },
+                    {
+                        "label": "701",
+                        "value": "701"
+                    },
+                    {
+                        "label": "7E2",
+                        "value": "7E2"
+                    },
+                    {
+                        "label": "702",
+                        "value": "702"
+                    }
+                ],
+                "labelvalues": ""
+            },
+            {
+                "api_key": "Rs232_port1_Flow_Con",
+                "api_labels": null,
+                "lookup_key": 56,
+                "group": "Communications",
+                "col_description": "RS-232 Comm Port One Flow Control",
+                "sourcetype": "inline",
+                "source": [
+                    {
+                        "label": "None",
+                        "value": "None"
+                    },
+                    {
+                        "label": "Hardware",
+                        "value": "Hardware"
+                    },
+                    {
+                        "label": "CTS Framing",
+                        "value": "CTS Framing"
+                    }
+                ],
+                "labelvalues": {
+                    "None": 0,
+                    "Hardware": 1,
+                    "CTS Framing": 2
+                }
+            },
+            {
+                "api_key": "RS232_TCP_list_port2",
+                "api_labels": null,
+                "lookup_key": 57,
+                "group": "Communications",
+                "col_description": "RS-232 Comm Port Two TCP listening Port",
+                "sourcetype": "input",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "RS232_port2_baudrate",
+                "api_labels": null,
+                "lookup_key": 58,
+                "group": "Communications",
+                "col_description": "RS-232 Comm Port Two baud rate",
+                "sourcetype": "inline",
+                "source": [
+                    {
+                        "label": 300,
+                        "value": 300
+                    },
+                    {
+                        "label": 600,
+                        "value": 600
+                    },
+                    {
+                        "label": 1200,
+                        "value": 1200
+                    },
+                    {
+                        "label": 4800,
+                        "value": 4800
+                    },
+                    {
+                        "label": 9600,
+                        "value": 9600
+                    },
+                    {
+                        "label": 19200,
+                        "value": 19200
+                    },
+                    {
+                        "label": 38400,
+                        "value": 38400
+                    },
+                    {
+                        "label": 57600,
+                        "value": 56700
+                    },
+                    {
+                        "label": 115200,
+                        "value": 115200
+                    },
+                    {
+                        "label": 230400,
+                        "value": 230400
+                    },
+                    {
+                        "label": 460800,
+                        "value": 460800
+                    },
+                    {
+                        "label": 921600,
+                        "value": 921600
+                    }
+                ],
+                "labelvalues": ""
+            },
+            {
+                "api_key": "RS232_port2_Data_For",
+                "api_labels": null,
+                "lookup_key": 59,
+                "group": "Communications",
+                "col_description": "RS-232 Comm Port Two Data Format",
+                "sourcetype": "inline",
+                "source": [
+                    {
+                        "label": "8N1",
+                        "value": "8N1"
+                    },
+                    {
+                        "label": "8N2",
+                        "value": "8N2"
+                    },
+                    {
+                        "label": "8E1",
+                        "value": "8E1"
+                    },
+                    {
+                        "label": "8O1",
+                        "value": "8O1"
+                    },
+                    {
+                        "label": "7N1",
+                        "value": "7N1"
+                    },
+                    {
+                        "label": "7N2",
+                        "value": "7N2"
+                    },
+                    {
+                        "label": "7E1",
+                        "value": "7E1"
+                    },
+                    {
+                        "label": "701",
+                        "value": "701"
+                    },
+                    {
+                        "label": "7E2",
+                        "value": "7E2"
+                    },
+                    {
+                        "label": "702",
+                        "value": "702"
+                    }
+                ],
+                "labelvalues": ""
+            },
+            {
+                "api_key": "Rs232_port2_Flow_Con",
+                "api_labels": null,
+                "lookup_key": 60,
+                "group": "Communications",
+                "col_description": "RS-232 Comm Port Two Flow Control",
+                "sourcetype": "inline",
+                "source": [
+                    {
+                        "label": "None",
+                        "value": "None"
+                    },
+                    {
+                        "label": "Hardware",
+                        "value": "Hardware"
+                    },
+                    {
+                        "label": "CTS Framing",
+                        "value": "CTS Framing"
+                    }
+                ],
+                "labelvalues": {
+                    "None": 0,
+                    "Hardware": 1,
+                    "CTS Framing": 2
+                }
+            },
+            {
+                "api_key": "max_cycles_Setpoint",
+                "api_labels": null,
+                "lookup_key": 61,
+                "group": "Pump Control",
+                "col_description": "User Maximum Stop/Start Cycles Setpoint",
+                "sourcetype": "input",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "max_weight_Setpoint",
+                "api_labels": null,
+                "lookup_key": 62,
+                "group": "Pump Control",
+                "col_description": "User maximum load weight Setpoint",
+                "sourcetype": "input",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "Fillage_Setpoint",
+                "api_labels": null,
+                "lookup_key": 63,
+                "group": "Pump Control",
+                "col_description": "User Pump Fillage(%) Setpoint",
+                "sourcetype": "input",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "Make_Rod1",
+                "api_labels": null,
+                "lookup_key": 64,
+                "group": "Pump Equipment",
+                "col_description": "Rod 1 - Rod Name and Make",
+                "sourcetype": "database",
+                "source": {
+                    "key": "lookups_rod_configurations",
+                    "field": "rod_manufacturer"
+                },
+                "labelvalues": ""
+            },
+            {
+                "api_key": "Grade_Rod1",
+                "api_labels": null,
+                "lookup_key": 65,
+                "group": "Pump Equipment",
+                "col_description": "Rod 1 - Grade",
+                "sourcetype": "database",
+                "source": {
+                    "key": "lookups_rod_configurations",
+                    "field": "rod_material",
+                    "where": [
+                        "Make_Rod1"
+                    ]
+                },
+                "labelvalues": ""
+            },
+            {
+                "api_key": "Length_Rod1",
+                "api_labels": null,
+                "lookup_key": 66,
+                "group": "Pump Equipment",
+                "col_description": "Rod 1 - Length",
+                "sourcetype": "input",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "Diameter_Rod1",
+                "api_labels": null,
+                "lookup_key": 67,
+                "group": "Pump Equipment",
+                "col_description": "Rod 1 - Diameter",
+                "sourcetype": "input",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "Weight_Rod1",
+                "api_labels": null,
+                "lookup_key": 68,
+                "group": "Pump Equipment",
+                "col_description": "Rod 1 - Weight (kg/meter)",
+                "sourcetype": "input",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "Elasticitiy_Rod1",
+                "api_labels": null,
+                "lookup_key": 69,
+                "group": "Pump Equipment",
+                "col_description": "Rod 1 - Elasticity per foot",
+                "sourcetype": "database",
+                "source": {
+                    "key": "lookups_rod_configurations",
+                    "field": "elasticity",
+                    "where": [
+                        "Make_Rod1"
+                    ]
+                },
+                "labelvalues": ""
+            },
+            {
+                "api_key": "Tensile_Rod1",
+                "api_labels": null,
+                "lookup_key": 70,
+                "group": "Pump Equipment",
+                "col_description": "Rod 1 - Tensile Strength",
+                "sourcetype": "database",
+                "source": {
+                    "key": "lookups_rod_configurations",
+                    "field": "tensile_strength",
+                    "where": [
+                        "Make_Rod1"
+                    ]
+                },
+                "labelvalues": ""
+            },
+            {
+                "api_key": "Make_Rod2",
+                "api_labels": null,
+                "lookup_key": 71,
+                "group": "Pump Equipment",
+                "col_description": "Rod 2 - Rod Name and Make",
+                "sourcetype": "",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "Grade_Rod2",
+                "api_labels": null,
+                "lookup_key": 72,
+                "group": "Pump Equipment",
+                "col_description": "Rod 2 - Grade",
+                "sourcetype": "",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "Length_Rod2",
+                "api_labels": null,
+                "lookup_key": 73,
+                "group": "Pump Equipment",
+                "col_description": "Rod 2 - Length",
+                "sourcetype": "input",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "Diameter_Rod2",
+                "api_labels": null,
+                "lookup_key": 74,
+                "group": "Pump Equipment",
+                "col_description": "Rod 2 - Diameter",
+                "sourcetype": "",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "weight_Rod2",
+                "api_labels": null,
+                "lookup_key": 75,
+                "group": "Pump Equipment",
+                "col_description": "Rod 2 - Weight (kg/meter)",
+                "sourcetype": "input",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "Elasticitiy_Rod2",
+                "api_labels": null,
+                "lookup_key": 76,
+                "group": "Pump Equipment",
+                "col_description": "Rod 2- Elasticity per foot",
+                "sourcetype": "",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "Tensile_Rod2",
+                "api_labels": null,
+                "lookup_key": 77,
+                "group": "Pump Equipment",
+                "col_description": "Rod 2 - Tensile Strength",
+                "sourcetype": "",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "Make_Rod3",
+                "api_labels": null,
+                "lookup_key": 78,
+                "group": "Pump Equipment",
+                "col_description": "Rod 3 - Rod Name and Make",
+                "sourcetype": "",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "Grade_Rod3",
+                "api_labels": null,
+                "lookup_key": 79,
+                "group": "Pump Equipment",
+                "col_description": "Rod 3 - Grade",
+                "sourcetype": "",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "Length_Rod3",
+                "api_labels": null,
+                "lookup_key": 80,
+                "group": "Pump Equipment",
+                "col_description": "Rod 3 - Length",
+                "sourcetype": "input",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "Diameter_Rod3",
+                "api_labels": null,
+                "lookup_key": 81,
+                "group": "Pump Equipment",
+                "col_description": "Rod 3 - Diameter",
+                "sourcetype": "",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "weight_Rod3",
+                "api_labels": null,
+                "lookup_key": 82,
+                "group": "Pump Equipment",
+                "col_description": "Rod 3 - Weight (kg/meter)",
+                "sourcetype": "input",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "Elasticitiy_Rod3",
+                "api_labels": null,
+                "lookup_key": 83,
+                "group": "Pump Equipment",
+                "col_description": "Rod 3 - Elasticity per foot",
+                "sourcetype": "",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "Tensile_Rod3",
+                "api_labels": null,
+                "lookup_key": 84,
+                "group": "Pump Equipment",
+                "col_description": "ROD 3 - Tensile Strength",
+                "sourcetype": "",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "Make_Rod4",
+                "api_labels": null,
+                "lookup_key": 85,
+                "group": "Pump Equipment",
+                "col_description": "Rod 4 - Rod Name and Make",
+                "sourcetype": "",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "Grade_Rod4",
+                "api_labels": null,
+                "lookup_key": 86,
+                "group": "Pump Equipment",
+                "col_description": "Rod 4 - Grade",
+                "sourcetype": "",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "Length_Rod4",
+                "api_labels": null,
+                "lookup_key": 87,
+                "group": "Pump Equipment",
+                "col_description": "Rod 4 - Length",
+                "sourcetype": "input",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "Diameter_Rod4",
+                "api_labels": null,
+                "lookup_key": 88,
+                "group": "Pump Equipment",
+                "col_description": "Rod 4 - Diameter",
+                "sourcetype": "",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "weight_Rod4",
+                "api_labels": null,
+                "lookup_key": 89,
+                "group": "Pump Equipment",
+                "col_description": "Rod 4 - Weight (kg/meter)",
+                "sourcetype": "input",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "Elasticitiy_Rod4",
+                "api_labels": null,
+                "lookup_key": 90,
+                "group": "Pump Equipment",
+                "col_description": "Rod 4 - Elasticity per foot",
+                "sourcetype": "",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "Tensile_Rod4",
+                "api_labels": null,
+                "lookup_key": 91,
+                "group": "Pump Equipment",
+                "col_description": "Rod 4- Tensile Strength",
+                "sourcetype": "",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "Make_Rod5",
+                "api_labels": null,
+                "lookup_key": 92,
+                "group": "Pump Equipment",
+                "col_description": "Rod 5 - Rod Name and Make",
+                "sourcetype": "",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "Grade_Rod5",
+                "api_labels": null,
+                "lookup_key": 93,
+                "group": "Pump Equipment",
+                "col_description": "Rod 5 - Grade",
+                "sourcetype": "",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "Length_Rod5",
+                "api_labels": null,
+                "lookup_key": 94,
+                "group": "Pump Equipment",
+                "col_description": "Rod 5 - Length",
+                "sourcetype": "input",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "Diameter_Rod5",
+                "api_labels": null,
+                "lookup_key": 95,
+                "group": "Pump Equipment",
+                "col_description": "Rod 5 - Diameter",
+                "sourcetype": "",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "weight_Rod5",
+                "api_labels": null,
+                "lookup_key": 96,
+                "group": "Pump Equipment",
+                "col_description": "Rod 5 - Weight (kg/meter)",
+                "sourcetype": "input",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "Elasticitiy_Rod5",
+                "api_labels": null,
+                "lookup_key": 97,
+                "group": "Pump Equipment",
+                "col_description": "Rod 5 - Elasticity per foot",
+                "sourcetype": "",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "Tensile_Rod5",
+                "api_labels": null,
+                "lookup_key": 98,
+                "group": "Pump Equipment",
+                "col_description": "Rod 5- Tensile Strength",
+                "sourcetype": "",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "Make_Rod6",
+                "api_labels": null,
+                "lookup_key": 99,
+                "group": "Pump Equipment",
+                "col_description": "Rod 6 - Rod Name and Make",
+                "sourcetype": "",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "Grade_Rod6",
+                "api_labels": null,
+                "lookup_key": 100,
+                "group": "Pump Equipment",
+                "col_description": "Rod 6 - Grade",
+                "sourcetype": "",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "Rod_Length",
+                "api_labels": null,
+                "lookup_key": 101,
+                "group": "Pump Equipment",
+                "col_description": "Rod 6 - Length",
+                "sourcetype": "input",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "Diameter_Rod6",
+                "api_labels": null,
+                "lookup_key": 102,
+                "group": "Pump Equipment",
+                "col_description": "Rod 6 - Diameter",
+                "sourcetype": "",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "weight_Rod6",
+                "api_labels": null,
+                "lookup_key": 103,
+                "group": "Pump Equipment",
+                "col_description": "Rod 6 - Weight (kg/meter)",
+                "sourcetype": "input",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "Elasticitiy_Rod6",
+                "api_labels": null,
+                "lookup_key": 104,
+                "group": "Pump Equipment",
+                "col_description": "Rod 6 - Elasticity per foot",
+                "sourcetype": "",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "Tensile_Rod6",
+                "api_labels": null,
+                "lookup_key": 105,
+                "group": "Pump Equipment",
+                "col_description": "Rod 6- Tensile Strength",
+                "sourcetype": "",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "Pump_Depth",
+                "api_labels": null,
+                "lookup_key": 106,
+                "group": "Pump Equipment",
+                "col_description": "Pump Depth",
+                "sourcetype": "input",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "Barrel_Length",
+                "api_labels": null,
+                "lookup_key": 107,
+                "group": "Pump Equipment",
+                "col_description": "Barrel Length",
+                "sourcetype": "input",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "Plunger_Size",
+                "api_labels": null,
+                "lookup_key": 108,
+                "group": "Pump Equipment",
+                "col_description": "Pump Plunger Size",
+                "sourcetype": "",
+                "source": "{\"key\":\"lookups_pump_sizes\",\"field\":\"plunger_size_cm\"}",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "Pump_Type",
+                "api_labels": null,
+                "lookup_key": 109,
+                "group": "Pump Equipment",
+                "col_description": "Pump Type ",
+                "sourcetype": "",
+                "source": "{\"key\":\"lookups_pump_sizes\",\"field\":\"pump_type\"}",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "pump_unit",
+                "api_labels": null,
+                "lookup_key": 110,
+                "group": "Pump Equipment",
+                "col_description": "Pumping Unit",
+                "sourcetype": "",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "Stroke_Length",
+                "api_labels": null,
+                "lookup_key": 111,
+                "group": "Pump Equipment",
+                "col_description": "Stroke Length",
+                "sourcetype": "",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "motor_hp_rating",
+                "api_labels": null,
+                "lookup_key": 112,
+                "group": "Pump Equipment",
+                "col_description": "Motor HP Rating",
+                "sourcetype": "",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "Tubing1_Diameter",
+                "api_labels": null,
+                "lookup_key": 113,
+                "group": "Pump Equipment",
+                "col_description": "Tubing 1 - Diameter",
+                "sourcetype": "",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "Tubing1_Length",
+                "api_labels": null,
+                "lookup_key": 114,
+                "group": "Pump Equipment",
+                "col_description": "Tubing 1 - Length",
+                "sourcetype": "input",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "Tubing2_Diameter",
+                "api_labels": null,
+                "lookup_key": 115,
+                "group": "Pump Equipment",
+                "col_description": "Tubing 2- Diameter",
+                "sourcetype": "",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "Tubing2_Length",
+                "api_labels": null,
+                "lookup_key": 116,
+                "group": "Pump Equipment",
+                "col_description": "Tubing 2- Length",
+                "sourcetype": "input",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "Tubing3_Diameter",
+                "api_labels": null,
+                "lookup_key": 117,
+                "group": "Pump Equipment",
+                "col_description": "Tubing 3 - Diameter",
+                "sourcetype": "",
+                "source": "",
+                "labelvalues": ""
+            },
+            {
+                "api_key": "Tubing3_Length",
+                "api_labels": null,
+                "lookup_key": 118,
+                "group": "Pump Equipment",
+                "col_description": "Tubing 3 - Length",
+                "sourcetype": "input",
+                "source": "",
+                "labelvalues": ""
+            }
+        ],
+        "registeredDevices": []
+    },
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHBpcnkiOjE1MDYyNDY0ODQsImRhdGEiOnsiaWQiOjE2LCJ1c2VybmFtZSI6Im1hdGkiLCJpbWciOiIiLCJvcmciOiJBQkMgRW50ZXJwcmlzZXMifSwiaSI6MTUwNjI0NTI4NH0.VRUqqFvCFKk-9Y4KGxTVg1313mSXlMmrYkk9kI0j9RY",
+    "rejected": 0,
+    "autoRefresh": 0
+}

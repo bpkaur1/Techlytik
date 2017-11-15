@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ControlCustomCell" id="KGk-i7-Jjw" customClass="ControlCustomCell" customModule="Techlytik" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="207"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="300" height="206"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sr0-tz-363">
+                        <rect key="frame" x="17" y="51" width="267" height="35"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="35" id="s91-p1-vT4"/>
+                        </constraints>
+                        <state key="normal" title="Start" backgroundImage="configBtnBg">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="startBtnTpd:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="jCO-ca-zbm"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h9D-Zt-YLJ">
+                        <rect key="frame" x="17" y="8" width="135" height="35"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="35" id="8wS-v9-3H3"/>
+                            <constraint firstAttribute="width" constant="135" id="xbp-f7-ozA"/>
+                        </constraints>
+                        <state key="normal" title="Clone All Setpoints" backgroundImage="configBtnBg">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="cloneAllSetPointsTpd:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="RT8-CX-wcQ"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZUD-Iy-BhO">
+                        <rect key="frame" x="17" y="94" width="267" height="35"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="35" id="fMM-s9-jjC"/>
+                        </constraints>
+                        <state key="normal" title="Acknowledge / Clear Alarms" backgroundImage="configBtnBg">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="AckORClearAlarmsBtnTpd:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="R53-dC-XGC"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jw3-BI-0i4">
+                        <rect key="frame" x="17" y="137" width="267" height="35"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="35" id="MZg-Z1-6gG"/>
+                        </constraints>
+                        <state key="normal" title="Shut Down" backgroundImage="configBtnBg">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="shutDownBtnTpd:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="bit-YO-MhG"/>
+                        </connections>
+                    </button>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="b2g-vC-RAf" customClass="IQDropDownTextField">
+                        <rect key="frame" x="153" y="8" width="131" height="35"/>
+                        <nil key="textColor"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="b2g-vC-RAf" firstAttribute="leading" secondItem="h9D-Zt-YLJ" secondAttribute="trailing" constant="1" id="3MY-KQ-Xuu"/>
+                    <constraint firstItem="ZUD-Iy-BhO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="17" id="4bt-04-CGw"/>
+                    <constraint firstItem="h9D-Zt-YLJ" firstAttribute="leading" secondItem="Sr0-tz-363" secondAttribute="leading" id="6Zd-rc-dqK"/>
+                    <constraint firstItem="Jw3-BI-0i4" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="17" id="AF0-LE-x15"/>
+                    <constraint firstAttribute="trailing" secondItem="Sr0-tz-363" secondAttribute="trailing" constant="16" id="E1Y-Tr-F9t"/>
+                    <constraint firstItem="Sr0-tz-363" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="17" id="HP2-ab-fxe"/>
+                    <constraint firstAttribute="trailing" secondItem="ZUD-Iy-BhO" secondAttribute="trailing" constant="16" id="Kz9-mF-J2q"/>
+                    <constraint firstItem="Jw3-BI-0i4" firstAttribute="top" secondItem="ZUD-Iy-BhO" secondAttribute="bottom" constant="8" id="MeI-BH-GJ0"/>
+                    <constraint firstItem="b2g-vC-RAf" firstAttribute="top" secondItem="h9D-Zt-YLJ" secondAttribute="top" id="Uxb-0H-1ny"/>
+                    <constraint firstAttribute="trailing" secondItem="Jw3-BI-0i4" secondAttribute="trailing" constant="16" id="e0m-Uh-a5m"/>
+                    <constraint firstItem="h9D-Zt-YLJ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="hmn-La-VrF"/>
+                    <constraint firstItem="Sr0-tz-363" firstAttribute="top" secondItem="h9D-Zt-YLJ" secondAttribute="bottom" constant="8" id="kY2-WM-Q4C"/>
+                    <constraint firstItem="b2g-vC-RAf" firstAttribute="trailing" secondItem="Sr0-tz-363" secondAttribute="trailing" id="nKg-H5-iv2"/>
+                    <constraint firstItem="b2g-vC-RAf" firstAttribute="bottom" secondItem="h9D-Zt-YLJ" secondAttribute="bottom" id="vbz-aG-OXD"/>
+                    <constraint firstItem="ZUD-Iy-BhO" firstAttribute="top" secondItem="Sr0-tz-363" secondAttribute="bottom" constant="8" id="yJp-Be-t3n"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="AckORClearAlarmsBtn" destination="ZUD-Iy-BhO" id="MTp-Ki-9Q2"/>
+                <outlet property="cloneAllSetPoints" destination="h9D-Zt-YLJ" id="P2X-wg-Fzq"/>
+                <outlet property="selectedDeviceTF" destination="b2g-vC-RAf" id="uLI-sJ-Pci"/>
+                <outlet property="shutDownBtn" destination="Jw3-BI-0i4" id="YCj-Ja-gp9"/>
+                <outlet property="startBtn" destination="Sr0-tz-363" id="3hf-gY-1Rg"/>
+            </connections>
+            <point key="canvasLocation" x="94" y="78.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="configBtnBg" width="303" height="30"/>
+    </resources>
+</document>
